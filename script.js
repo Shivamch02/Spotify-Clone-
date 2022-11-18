@@ -11,16 +11,16 @@ let audioElement = new Audio('songs/1.mp3');
 
 
 let songs = [
-    {songName: "tu hi hai ", filePath: "songs/1.mp3", coverPath: '1.jpg' },
-    {songName: "hum ter bin ", filePath: "songs/2.mp3", coverPath: "2.jpg" },
-    {songName: "sakhiya ", filePath: "songs/3.mp3", coverPath: "3.jpg" },
-    {songName: "raabta", filePath: "songs/4.mp3", coverPath: "4.jpg" },
-    {songName: "jadugar", filePath: "songs/5.mp3", coverPath: "5.jpg" },
-    {songName: "tera zikra", filePath: "songs/6.mp3", coverPath: "6.jpg" },
-    {songName: "hawa banke", filePath: "songs/7.mp3", coverPath: "7.jpg" },
-    {songName: "samebeaf", filePath: "songs/8.mp3", coverPath: "8.jpg" },
-    {songName: "rag rag wo", filePath: "songs/9.mp3", coverPath: "9.jpg" },
-    {songName: "no love", filePath: "songs/10.mp3", coverPath: "10.jpg" },
+    {songName: "tu hi hai ", filePath: "1.mp3", coverPath: '1.jpg' },
+    {songName: "hum ter bin ", filePath: "2.mp3", coverPath: "2.jpg" },
+    {songName: "sakhiya ", filePath: "3.mp3", coverPath: "3.jpg" },
+    {songName: "raabta", filePath: "4.mp3", coverPath: "4.jpg" },
+    {songName: "jadugar", filePath: "5.mp3", coverPath: "5.jpg" },
+    {songName: "tera zikra", filePath: "6.mp3", coverPath: "6.jpg" },
+    {songName: "hawa banke", filePath: "7.mp3", coverPath: "7.jpg" },
+    {songName: "samebeaf", filePath: "8.mp3", coverPath: "8.jpg" },
+    {songName: "rag rag wo", filePath: "9.mp3", coverPath: "9.jpg" },
+    {songName: "no love", filePath: "10.mp3", coverPath: "10.jpg" },
 ]
 
 songItems.forEach((element,i) => {
