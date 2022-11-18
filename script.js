@@ -7,7 +7,7 @@ let myProgressBar = document.getElementById('myProgressBar');
 let gif= document.getElementById('gif');
 let masterSongName= document.getElementById('masterSongName');
 let songItems= Array.from(document.getElementsByClassName('songItem'));
-let audioElement = new Audio('songs/1.mp3');
+let audioElement = new Audio('1.mp3');
 
 
 let songs = [
