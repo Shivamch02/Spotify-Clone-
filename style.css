@@ -114,3 +114,40 @@ nav ul li{
     opacity: 0;
     transition: opacity 0.4s ease-in;
 }
+
+
+
+@media (width <= 480px ) {
+    .icons{
+        margin-top: 10px; 
+    
+    }
+    
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column; 
+}
+   
+.songInfo{
+    position: absolute;
+    left: 0vw;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0px;
+    align-items:flex-start;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    width: 0px;
+}
+    
+}
+
